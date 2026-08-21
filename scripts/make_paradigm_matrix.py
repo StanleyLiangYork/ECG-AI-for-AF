@@ -4,11 +4,11 @@ Generate the paradigm x clinical-task matrix of included studies from a CSV.
 
 Usage
 -----
-    python make_paradigm_matrix.py INPUT.csv [-o OUT.png] [--title TEXT] [--dpi 600]
+    python scripts/make_paradigm_matrix.py INPUT.csv [-o OUT.png] [--title TEXT] [--dpi 600]
 
 Example
-    python3 make_paradigm_matrix.py paradigm_task_matrix_data.csv \
-      -o paradigm_task_matrix.png
+    python3 scripts/make_paradigm_matrix.py data/paradigm_task_matrix_data.csv \
+      -o figures/paradigm_task_matrix.png
 
 Input CSV
 ---------

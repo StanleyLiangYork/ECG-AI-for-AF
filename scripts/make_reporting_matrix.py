@@ -7,12 +7,12 @@ matrix is descriptive: no cell feeds a QUADAS-3, PROBAST+AI or GRADE judgment.
 
 Usage
 -----
-    python make_reporting_matrix.py INPUT.csv [-o OUT.png] [--title TEXT]
+    python scripts/make_reporting_matrix.py INPUT.csv [-o OUT.png] [--title TEXT]
            [--note TEXT] [--dpi 300]
 
 Example
-    python3 make_reporting_matrix.py ai_kg_reporting_matrix_data.csv \
-      -o ai_kg_reporting_matrix.png
+    python3 scripts/make_reporting_matrix.py data/ai_kg_reporting_matrix_data.csv \
+      -o figures/ai_kg_reporting_matrix.png
 
 Input CSV
 ---------

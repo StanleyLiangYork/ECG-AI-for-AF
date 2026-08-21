@@ -4,14 +4,14 @@ Generate the GRADE domain-rating and certainty figure from a GRADE evidence prof
 
 Usage
 -----
-    python make_grade_certainty_plot.py PROFILE.csv [-o OUT.png] [--labels LABELS.csv]
+    python scripts/make_grade_certainty_plot.py PROFILE.csv [-o OUT.png] [--labels LABELS.csv]
            [--title TEXT] [--note TEXT] [--dpi 600] [--no-key]
 
 Example
-    python3 make_grade_certainty_plot.py \
-      /path/to/grade_evidence_profile_integrate.csv \
-      --labels /path/to/grade_outcome_short_labels.csv \
-      -o grade_certainty_column.png
+    python3 scripts/make_grade_certainty_plot.py \
+      data/grade_evidence_profile_integrate.csv \
+      --labels data/grade_outcome_short_labels.csv \
+      -o figures/grade_certainty_column.png
 
 Input CSV
 ---------

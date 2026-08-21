@@ -11,14 +11,14 @@ underlying datasets differ and several datasets overlap.
 
 Usage
 -----
-    python make_forest_plot.py --accuracy TABLE1.csv --auroc TABLE2.csv
+    python scripts/make_forest_plot.py --accuracy TABLE1.csv --auroc TABLE2.csv
            [-o OUT.png] [--dpi 300]
 
 Example
-    python3 make_forest_plot.py \
-      --accuracy table1_diagnostic_accuracy.csv \
-      --auroc table2_auroc_discrimination.csv \
-      -o forest_point_estimates.png
+    python3 scripts/make_forest_plot.py \
+      --accuracy data/table1_diagnostic_accuracy.csv \
+      --auroc data/table2_auroc_discrimination.csv \
+      -o figures/forest_point_estimates.png
 
 Input columns
 -------------

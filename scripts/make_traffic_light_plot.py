@@ -4,19 +4,19 @@ Generate a QUADAS-3 (or PROBAST+AI) risk-of-bias traffic-light plot from a CSV.
 
 Usage
 -----
-    python make_traffic_light_plot.py INPUT.csv [-o OUTPUT.png] [--tool quadas3|probast]
+    python scripts/make_traffic_light_plot.py INPUT.csv [-o OUTPUT.png] [--tool quadas3|probast]
            [--title TEXT] [--subtitle TEXT] [--dpi 300]
 -----
 Example
-python3 /path/to/make_traffic_light_plot.py \
-  /path/to/quadas3_traffic_light_plot_data_integrate.csv \
+python3 scripts/make_traffic_light_plot.py \
+  data/quadas3_traffic_light_plot_data_integrate.csv \
   --tool quadas3 \
-  -o /path/to/quadas3_traffic_light_plot.png
+  -o figures/quadas3_traffic_light_plot.png
 
-python3 make_traffic_light_plot.py \
-  /path/to/probast_ai_traffic_light_plot_data_integrate.csv \
+python3 scripts/make_traffic_light_plot.py \
+  data/probast_ai_traffic_light_plot_data_integrate.csv \
   --tool probast \
-  -o probast_ai_traffic_light_plot.png
+  -o figures/probast_ai_traffic_light_plot.png
   
 
 

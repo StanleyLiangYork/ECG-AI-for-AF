@@ -92,6 +92,8 @@ Figures 1–4 are programmatic redraws with matching content/estimates, not byte
 
 ## Image files for submission
 
+The generated figures are committed in `figures/` for direct viewing and download: Figures 1–7 and the optional Appendix 5 secondary-results plot, each as PNG, SVG, and PDF. Smaller PNG copies are in `figures/JMIR_upload_ready/`. These are outputs of the supplied scripts, not raw study data.
+
 Master PNGs are rendered at 600 DPI by default, with vector SVG/PDF alternatives. `figures/JMIR_upload_ready/` contains opaque RGB PNG copies within 1200 × 1200 pixels and 5 MB. DPI metadata alone does not create detail. JMIR's currently published upload guidance specifies these pixel/file limits, not a universal 600-DPI requirement:
 https://support.jmir.org/hc/en-us/articles/115002199367
 

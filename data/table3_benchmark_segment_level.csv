@@ -1,4 +1,0 @@
-study,model,unit,benchmark,target,sensitivity,specificity,F1,accuracy,auroc,notes
-Mandala_2025,Rhythm-Aware BERT (fine-tuned LLM),10-s segment,"MIT-BIH AFDB (+MITDB,VFDB)",AFIB class,0.97,0.9812,0.9664,0.9775,,Per-class AFIB on held-out MIT-BIH segments; unit=segment (not patient).
-Mousavi_2021,Attention/NLP-style (ECG language),5-s segment / beat,"MIT-BIH AFIB (+MITDB, CinC2017)",AFIB detection,0.9857,0.9776,,0.9817,,CinC2017 AF F1 0.6457 (harder); unit=segment; shares MIT-BIH with Mandala/Tudjarski.
-Tudjarski_2025,ECG foundation LLM (heartbeat tokens),41-heartbeat segment,"AFDB, LTAFDB (test); MITDB (finetune)",AFIB detection,,,0.9333,,,F1 0.9333 (main); AFDB 0.9197 / TDB 0.8737; unit=segment; shares MIT-BIH AFDB (non-independent).

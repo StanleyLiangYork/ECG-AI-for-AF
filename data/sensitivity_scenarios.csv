@@ -1,0 +1,14 @@
+scenario,counts,changed_or_excluded_profiles,source
+"Two imprecision levels for missing numerical CI, with recovered Nolin intervals retained",0 / 15 / 20,"G06, G07, G28, G_UHN_sensitivity, G_UHN_specificity, G_UHN_AUROC, G_MIMICIV_sensitivity, G_MIMICIV_specificity, G_MIMICIV_AUROC, G_KGH_recall, G_KGH_AUROC",Multimedia Appendix 6 sensitivity table
+Omit diagnostic planning-count screen,6 / 16 / 13,"G01, G03",Multimedia Appendix 6 sensitivity table
+Zheng 2024 report-level uncertain cluster precision limited to one level,6 / 21 / 8,"G17_S2, G18_S1, G19_S1, G19_S2, G20_S1, G21_S1, G21_S2",Multimedia Appendix 6 sensitivity table
+Sethi reported CI accepted without extra event/cluster deduction,7 / 13 / 15,G23,Multimedia Appendix 6 sensitivity table
+Mousavi uncertain safeguards assigned two bias levels,6 / 12 / 17,"G06, G07",Multimedia Appendix 6 sensitivity table
+KGH incomplete-reporting concern removed from bias,8 / 12 / 15,"G_KGH_recall, G_KGH_AUROC",Multimedia Appendix 6 sensitivity table
+MIMIC machine-label evidence extrapolated to clinical AF ascertainment,3 / 17 / 15,"G_MIMICIV_sensitivity, G_MIMICIV_specificity, G_MIMICIV_AUROC",Multimedia Appendix 6 sensitivity table
+Technical boundaries down by 0.05,6 / 15 / 14,G20_S1,Multimedia Appendix 6 sensitivity table
+Technical boundaries up by 0.05 capped at 0.99,6 / 13 / 16,"G20_S1, G22_S1, G22_S2",Multimedia Appendix 6 sensitivity table
+Accept recovered Nolin intervals without extra independent-information deduction,8 / 12 / 15,"G24, G25",Multimedia Appendix 6 sensitivity table
+Exclude the two reports added under the operational definition,0 / 12 / 15,27 profiles retained; remove McKeen UHN and MIMIC-IV (6) and Maghsoodi KGH (2).,Multimedia Appendix 6 sensitivity table
+Restrict to documented adult populations,0 / 6 / 10,"16 profiles retained: G03, G04; G17–G22 at both sites; G23; G29. Other 19 profiles excluded.",Multimedia Appendix 6 sensitivity table
+Conditional adult-database variant,3 / 7 / 10,20 profiles retained: documented-adult set plus G25 and the three G_MIMICIV profiles. ECG-time age remains uncertain.,Multimedia Appendix 6 sensitivity table

@@ -1,0 +1,12 @@
+panel,heading,detail
+A Clinical questions for AF care,Detect AF now,AF in the evaluated recording; sensitivity and specificity
+A Clinical questions for AF care,Identify prior AF,Previously documented AF or recurrence; separate from future-event prediction
+A Clinical questions for AF care,Predict future events,"Incident AF, recurrence, progression or stroke; specify index time and horizon"
+A Clinical questions for AF care,Support clinical decisions,"Monitoring, treatment or follow-up; decision impact, safety and patient outcomes"
+B Relate each AI approach to the clinical question,Clinical inputs,ECG waveforms or images; rhythm reports and clinical records
+B Relate each AI approach to the clinical question,Eligible AI approaches,Knowledge graphs and semantic methods; language models and ECG-language methods; integrated KG–LLM systems
+B Relate each AI approach to the clinical question,Result to be evaluated,AF-specific estimate; reference standard and threshold; analysis unit and validation setting
+C Assess what the evidence supports,QUADAS-3,Diagnostic-accuracy estimates
+C Assess what the evidence supports,PROBAST+AI,Diagnostic or prognostic model development and evaluation
+C Assess what the evidence supports,GRADE,Certainty for each outcome
+C Assess what the evidence supports,Clinical interpretation,"What is supported, for whom, and what remains uncertain"

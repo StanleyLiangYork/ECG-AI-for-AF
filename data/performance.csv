@@ -1,0 +1,27 @@
+figure,panel,label,metric,value,lower,upper,interval_type,numerator,denominator,source,analysis_unit,comparator
+3,A Current AF in ECG images,Smartwatch GPT-4o [32],Sensitivity,0.47368421052631576,,,wilson_95ci,54,114,Manuscript Table 2; ref 32; Appendix 5 Table S2,recording,0
+3,A Current AF in ECG images,Smartwatch GPT-4o [32],Specificity,0.7166666666666667,,,wilson_95ci,43,60,Manuscript Table 2; ref 32; Appendix 5 Table S2,recording,0
+3,A Current AF in ECG images,Same-cohort device comparator [32],Sensitivity,0.9736842105263158,,,wilson_95ci,111,114,Manuscript Table 2; ref 32; Appendix 5 Table S2,recording,1
+3,A Current AF in ECG images,Same-cohort device comparator [32],Specificity,1.0,,,wilson_95ci,60,60,Manuscript Table 2; ref 32; Appendix 5 Table S2,recording,1
+3,A Current AF in ECG images,Curated GPT-4o experiment 5.2 [11],Sensitivity,0.2222222222222222,,,wilson_95ci,2,9,Manuscript Table 2; ref 11; Appendix 5 Table S2,image,0
+3,A Current AF in ECG images,Curated GPT-4o experiment 5.2 [11],Specificity,0.9777777777777777,,,wilson_95ci,44,45,Manuscript Table 2; ref 11; Appendix 5 Table S2,image,0
+3,B AF documented after treatment,ECG-report NLP site 1 [12],Sensitivity,1,0.967,1,reported_95ci,,,Ref 12; manuscript Results,report; 141 reports,0
+3,B AF documented after treatment,ECG-report NLP site 1 [12],Specificity,0.968,0.833,0.999,reported_95ci,,,Ref 12; manuscript Results,report; 141 reports,0
+3,B AF documented after treatment,ECG-report NLP site 2 [12],Sensitivity,0.92,0.848,0.965,reported_95ci,,,Ref 12; manuscript Results,report; 394 reports,0
+3,B AF documented after treatment,ECG-report NLP site 2 [12],Specificity,0.997,0.981,1,reported_95ci,,,Ref 12; manuscript Results,report; 394 reports,0
+4,A Five-year incident AF,DeepECG-SSL MHI [37],AUROC,0.742,0.739,0.745,reported_95ci,,,Ref 37; supplementary Tables 25–26; manuscript Results,ECG,0
+4,A Five-year incident AF,DeepECG-SL MHI [37],AUROC,0.734,,,none,,,Ref 37; supplementary Tables 25–26; manuscript Results,ECG,1
+4,A Five-year incident AF,DeepECG-SSL MIMIC-IV [37],AUROC,0.715,0.714,0.716,reported_95ci,,,Ref 37; supplementary Tables 25–26; manuscript Results,ECG,0
+4,B Five-minute warning,ECG-MTDA in-house [38],AUROC,0.97,0.95,0.99,cross_fold_sd,,,Ref 38; manuscript Results,patient-stratified folds,0
+4,B Five-minute warning,Clinical-risk-factor comparator [38],AUROC,0.85,0.82,0.88,cross_fold_sd,,,Ref 38; manuscript Results,patient-stratified folds,1
+4,B Five-minute warning,ECG-MTDA INCART [38],AUROC,0.91,0.88,0.9400000000000001,cross_fold_sd,,,Ref 38; manuscript Results,segment-level folds,0
+4,C AF discharge-label classification,CUI NLP model [36],AUROC,0.8,0.79,0.8,reported_95ci,,,Ref 36 Table 2; manuscript Results,admission ECG,0
+4,C AF discharge-label classification,Prototype comparator [36],AUROC,0.89,0.88,0.89,reported_95ci,,,Ref 36 Table 2; manuscript Results,admission ECG,1
+A5,Secondary documented recurrence,"Cardiac monitor Site 1, n=92 [12]",Sensitivity,0.941,0.803,0.993,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0
+A5,Secondary documented recurrence,"Cardiac monitor Site 1, n=92 [12]",Specificity,0.948,0.856,0.989,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0
+A5,Secondary documented recurrence,"Cardiac monitor Site 2, n=228 [12]",Sensitivity,0.833,0.626,0.953,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0
+A5,Secondary documented recurrence,"Cardiac monitor Site 2, n=228 [12]",Specificity,0.99,0.965,0.999,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0
+A5,Secondary documented recurrence,"Clinical note Site 1, n=218 [12]",Sensitivity,0.921,0.824,0.974,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0
+A5,Secondary documented recurrence,"Clinical note Site 1, n=218 [12]",Specificity,0.974,0.935,0.993,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0
+A5,Secondary documented recurrence,"Clinical note Site 2, n=204 [12]",Sensitivity,0.911,0.788,0.975,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0
+A5,Secondary documented recurrence,"Clinical note Site 2, n=204 [12]",Specificity,0.975,0.937,0.993,reported_95ci,,,Multimedia Appendix 5 Table S1; ref 12,report,0

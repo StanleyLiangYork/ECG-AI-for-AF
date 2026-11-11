@@ -1,0 +1,12 @@
+record_id,study_id,model,assessment_stage,participants,index_test_or_predictors,target_condition_or_outcome,analysis,overall,app_participants,app_index_or_predictors,app_target_or_outcome,app_overall,display_label
+Avidan_2025_evaluation_1,Avidan_2025,GPT-4o ECG-Analyst,evaluation,high,low,low,insufficient information,high,high,high,low,high,Avidan 2025 / record 1
+Avidan_2025b_evaluation_2,Avidan_2025b,GPT-4o smartwatch ECG interpretation,evaluation,high,low,low,high,high,high,low,low,high,Avidan 2025b / record 2
+Engelstein_2025_evaluation_3,Engelstein_2025,GPT-4o experiment 5.2,evaluation,high,high,low,insufficient information,high,high,low,low,high,Engelstein 2025 / record 3
+Mousavi_2021_evaluation_4,Mousavi_2021,ELP CNN on MIT-BIH AFDB,evaluation,high,insufficient information,low,insufficient information,high,high,low,low,high,Mousavi 2021 / record 4
+Tudjarski_2025_evaluation_6,Tudjarski_2025,Beat/RR foundation language model,evaluation,insufficient information,insufficient information,insufficient information,high,high,insufficient information,insufficient information,low,insufficient information,Tudjarski 2025 / record 6
+Ge_2024_evaluation_7,Ge_2024,KG semantic features plus GCN,evaluation,insufficient information,insufficient information,insufficient information,insufficient information,insufficient information,insufficient information,low,low,insufficient information,Ge 2024 / record 7
+Teijeiro_2018_evaluation_8,Teijeiro_2018,Abductive interpretation with stacked classifiers,evaluation,insufficient information,insufficient information,insufficient information,insufficient information,insufficient information,insufficient information,low,low,insufficient information,Teijeiro 2018 / record 8
+Zheng_2024_evaluation_9,Zheng_2024,Rule-based clinical NLP for documented recurrence,evaluation,insufficient information,low,low,insufficient information,insufficient information,low,low,low,low,Zheng 2024 / record 9
+McKeen_2025_UHN_ECGFM,McKeen_2025,ECG-FM Full,evaluation,low,low,low,low,low,low,low,low,low,McKeen 2025 UHN ECGFM
+McKeen_2025_MIMIC_IV_ECGFM,McKeen_2025,ECG-FM Full,evaluation,low,low,insufficient information,low,insufficient information,low,low,high,high,McKeen 2025 MIMIC IV ECGFM
+Maghsoodi_2026_KGH_ECGFM,Maghsoodi_2026,ECG-FM evaluation arm,evaluation,insufficient information,insufficient information,insufficient information,insufficient information,insufficient information,insufficient information,low,low,insufficient information,Maghsoodi 2026 KGH ECGFM

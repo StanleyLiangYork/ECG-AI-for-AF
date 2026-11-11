@@ -1,0 +1,36 @@
+id,study,outcome,metric,value,cert,starting_certainty,independent_studies,rob_deduction,rob_display,inconsistency_deduction,inconsistency_display,indirectness_deduction,indirectness_display,imprecision_deduction,imprecision_display,publication_bias_deduction,publication_bias_display
+G01,Avidan_2025b,Smartwatch GPT-4o sensitivity,sensitivity,0.47368421052631576,very low,high,1,2,2,0,NA,0,0,1,1,0,U
+G02,Avidan_2025b,Smartwatch GPT-4o specificity,specificity,0.7166666666666667,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G03,Engelstein_2025,Curated ECG-image experiment 5.2 sensitivity,sensitivity,0.2222222222222222,very low,high,1,2,2,0,NA,0,0,1,1,0,U
+G04,Engelstein_2025,Curated ECG-image experiment 5.2 specificity,specificity,0.9777777777777777,very low,high,1,2,2,0,NA,0,0,2,2,0,U
+G06,Mousavi_2021,ELP CNN sensitivity,sensitivity,0.9857,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G07,Mousavi_2021,ELP CNN specificity,specificity,0.9776,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G10,Tudjarski_2025,Heartbeat-token model AFDB sensitivity,sensitivity,0.9784,very low,high,1,2,2,0,NA,0,0,1,1,0,U
+G11,Tudjarski_2025,Heartbeat-token model AFDB specificity,specificity,0.8807,very low,high,1,2,2,0,NA,0,0,1,1,0,U
+G12,Tudjarski_2025,Heartbeat-token model LTAFDB sensitivity,sensitivity,0.989,very low,high,1,2,2,0,NA,1,1,1,1,0,U
+G13,Tudjarski_2025,Heartbeat-token model LTAFDB specificity,specificity,0.8836,very low,high,1,2,2,0,NA,1,1,1,1,0,U
+G17_S1,Zheng_2024,Documented recurrence ECG report sensitivity,sensitivity,1.0,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G17_S2,Zheng_2024,Documented recurrence ECG report sensitivity,sensitivity,0.92,very low,high,1,1,1,0,NA,0,0,2,2,0,U
+G18_S1,Zheng_2024,Documented recurrence ECG report specificity,specificity,0.967741935483871,very low,high,1,1,1,0,NA,0,0,2,2,0,U
+G18_S2,Zheng_2024,Documented recurrence ECG report specificity,specificity,0.9965986394557823,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G19_S1,Zheng_2024,Documented recurrence cardiac monitor report sensitivity,sensitivity,0.9411764705882353,very low,high,1,1,1,0,NA,0,0,2,2,0,U
+G19_S2,Zheng_2024,Documented recurrence cardiac monitor report sensitivity,sensitivity,0.8333333333333334,very low,high,1,1,1,0,NA,0,0,2,2,0,U
+G20_S1,Zheng_2024,Documented recurrence cardiac monitor report specificity,specificity,0.9482758620689655,very low,high,1,1,1,0,NA,0,0,2,2,0,U
+G20_S2,Zheng_2024,Documented recurrence cardiac monitor report specificity,specificity,0.9901960784313726,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G21_S1,Zheng_2024,Documented recurrence clinical note sensitivity,sensitivity,0.9206349206349206,very low,high,1,1,1,0,NA,0,0,2,2,0,U
+G21_S2,Zheng_2024,Documented recurrence clinical note sensitivity,sensitivity,0.9111111111111111,very low,high,1,1,1,0,NA,0,0,2,2,0,U
+G22_S1,Zheng_2024,Documented recurrence clinical note specificity,specificity,0.9741935483870968,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G22_S2,Zheng_2024,Documented recurrence clinical note specificity,specificity,0.9748427672955975,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G23,Sethi_2026,AF discharge-code CUI model AUROC,AUROC,0.8,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G24,Nolin-Lapalme_2026,Five-year incident AF MHI internal AUROC,AUROC,0.742,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G25,Nolin-Lapalme_2026,Five-year incident AF MIMIC-IV patient-disjoint test AUROC,AUROC,0.7151,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G28,Zheng_2026,Five-minute AF warning in-house patient-stratified cross-validation AUROC,AUROC,0.97,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G29,Zheng_2026,Five-minute AF warning INCART segment-level cross-validation AUROC,AUROC,0.91,very low,high,1,2,2,0,NA,0,0,2,2,0,U
+G_UHN_sensitivity,McKeen_2025,ECG-FM UHN AF sensitivity,sensitivity,0.957,moderate,high,1,0,0,0,NA,0,0,1,1,0,U
+G_UHN_specificity,McKeen_2025,ECG-FM UHN AF specificity,specificity,0.98,moderate,high,1,0,0,0,NA,0,0,1,1,0,U
+G_UHN_AUROC,McKeen_2025,ECG-FM UHN AF AUROC,AUROC,0.996,moderate,high,1,0,0,0,NA,0,0,1,1,0,U
+G_MIMICIV_sensitivity,McKeen_2025,ECG-FM MIMIC-IV AF-label sensitivity,sensitivity,0.897,moderate,high,1,0,0,0,NA,0,0,1,1,0,U
+G_MIMICIV_specificity,McKeen_2025,ECG-FM MIMIC-IV AF-label specificity,specificity,0.962,moderate,high,1,0,0,0,NA,0,0,1,1,0,U
+G_MIMICIV_AUROC,McKeen_2025,ECG-FM MIMIC-IV AF-label AUROC,AUROC,0.976,moderate,high,1,0,0,0,NA,0,0,1,1,0,U
+G_KGH_recall,Maghsoodi_2026,ECG-FM KGH AF recall,sensitivity,0.97,low,high,1,1,1,0,NA,0,0,1,1,0,U
+G_KGH_AUROC,Maghsoodi_2026,ECG-FM KGH AF AUROC,AUROC,0.86,low,high,1,1,1,0,NA,0,0,1,1,0,U

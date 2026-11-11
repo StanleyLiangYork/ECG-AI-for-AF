@@ -1,0 +1,11 @@
+record_id,study_id,model,assessment_stage,participants,index_test_or_predictors,target_condition_or_outcome,analysis,overall,app_participants,app_index_or_predictors,app_target_or_outcome,app_overall,display_label
+Nolin-Lapalme_2026_development_10,Nolin-Lapalme_2026,DeepECG-SSL,development,unclear,low,unclear,unclear,unclear,unclear,low,low,unclear,Nolin-Lapalme: MHI development
+Nolin-Lapalme_2026_evaluation_11,Nolin-Lapalme_2026,DeepECG-SSL,evaluation,unclear,low,unclear,unclear,unclear,unclear,low,low,unclear,Nolin-Lapalme: MHI internal evaluation
+Nolin-Lapalme_2026_evaluation_12,Nolin-Lapalme_2026,DeepECG-SSL,evaluation,unclear,low,unclear,unclear,unclear,unclear,low,low,unclear,Nolin-Lapalme: MIMIC-IV evaluation
+Nolin-Lapalme_2026_evaluation_13,Nolin-Lapalme_2026,DeepECG-SSL,evaluation,unclear,low,unclear,unclear,unclear,unclear,low,low,unclear,Nolin-Lapalme: CSH external evaluation
+Nolin-Lapalme_2026_evaluation_14,Nolin-Lapalme_2026,DeepECG-SSL,evaluation,unclear,low,unclear,unclear,unclear,unclear,low,low,unclear,Nolin-Lapalme: UCSF external evaluation
+Sethi_2026_development_15,Sethi_2026,NLP-derived CUI features plus logistic regression,development,unclear,low,unclear,unclear,unclear,unclear,low,low,unclear,Sethi: CUI/NLP development
+Sethi_2026_evaluation_16,Sethi_2026,NLP-derived CUI features plus logistic regression,evaluation,unclear,low,unclear,unclear,unclear,unclear,low,low,unclear,Sethi: CUI/NLP evaluation
+Zheng_2026_development_17,Zheng_2026,ECG-MTDA,development,high,low,unclear,unclear,high,high,low,low,high,Zheng: in-house development
+Zheng_2026_evaluation_18,Zheng_2026,ECG-MTDA,evaluation,high,low,unclear,unclear,high,high,low,low,high,Zheng: in-house patient-stratified evaluation
+Zheng_2026_evaluation_19,Zheng_2026,ECG-MTDA,evaluation,high,low,unclear,high,high,high,low,low,high,Zheng: INCART segment-level evaluation

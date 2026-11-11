@@ -1,9 +1,0 @@
-outcome_id,short_label
-O1,"AF detection, sensitivity — LLM, patient level"
-O2,"AF detection, specificity — LLM, patient level"
-O3,"AF detection, sensitivity — ECG models, segment level"
-O4,"AF detection, specificity — ECG models, segment level"
-O5,"AF classification, F1 — knowledge-based models"
-O6,AF recurrence from EHR text — sensitivity & specificity
-O7,Future AF prediction — discrimination (AUROC)
-O8,"Calibration, net benefit, decision impact"
